@@ -1,0 +1,94 @@
+/*-----------------------------------------------------------------------------
+ELEMENT GENERAL */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----------------------------------------------------------------------------
+ELEMENT TABLE */
+
+table {
+    background-color: rgb(30, 255, 0);
+}
+
+thead {
+    background-color: red;
+}
+
+tbody {
+    background-color: blue;
+}
+
+tr {
+    background-color: yellow;
+}
+
+th {
+    background-color: rgb(0, 158, 61);
+}
+
+td {
+    background-color: rgb(19, 0, 128);
+}
+
+
+/*-----------------------------------------------------------------------------
+ELEMENT DIV */
+
+div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div.DivClassSecctionUpper {
+        /*COLOR DE FONDO*/
+        background-color: rgb(168, 162, 255);
+}
+
+div.DivClassSecctionCentral{
+    background-color: #7AB819;
+}
+
+div.DivClassSecctionLower {
+        /*COLOR DE FONDO*/
+        background-color: rgb(162, 255, 174);
+}
+
+div.DivLogin {
+    /*COLOR DE FONDO*/
+    background-color: rgb(54, 54, 54);
+    /*COMPRENDE A LA ALINEACION DE TODO EL TEXTO*/
+    text-align: center;
+    /*CORRESPONDE A BORDE DEL ELEMENTO*/
+    padding: 10px;
+}
+
+div.ClassDivDefault {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------------------------------------------------------------
+ELEMENT BUTTON */
+
+button.ButtonClassLogin {
+    background-color: rgb(35, 100, 210);
+    width: 95%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+img.ClassImageStarup {
+    padding-bottom: 20px;
+}
