@@ -1,4 +1,15 @@
 /*-----------------------------------------------------------------------------
+PALETA DE COLORES
+
+VERDE 1 - PRINCIPAL / rgb(123, 193, 66)
+VERDE AGUAMARINA 1 PRINCIPAL / rgb(11, 151, 132)
+ROJO PERLADO 1 / rgb(255, 67, 64)
+AZUL CLARO 1 / rgb(75, 135, 255)
+AZUL OSCURO PROFUNDO 1 / rgb(30, 38, 73)
+*/
+
+
+/*-----------------------------------------------------------------------------
 ELEMENT GENERAL */
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,70 +18,112 @@ ELEMENT GENERAL */
     align-items: center;
 }
 
+/*-----------------------------------------------------------------------------
+ELEMENT BODY */
+body{
+    /* IMPORTANTE
+    display: CORRESPONDE AL LA DISPOSICION DE DISPLAY / INVESTIGAR LA SOBRE DISPLAY
+    */
+    /*display: grid;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background:rgb(255, 255, 255);
+}
 
 /*-----------------------------------------------------------------------------
 ELEMENT TABLE */
 
 table {
-    background-color: rgb(30, 255, 0);
-}
-
-thead {
-    background-color: red;
-}
-
-tbody {
-    background-color: blue;
+    background-color: rgb(0, 238, 255);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 tr {
-    background-color: yellow;
+    background-color: rgb(255, 0, 221);
+    padding: 20px;
+    text-align: center;
 }
 
 th {
-    background-color: rgb(0, 158, 61);
+    background-color: rgb(0, 153, 158);
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    height: 100px;
 }
 
 td {
     background-color: rgb(19, 0, 128);
+    padding: 20px;
+    text-align: center;
 }
 
 
 /*-----------------------------------------------------------------------------
 ELEMENT DIV */
 
+/* div GENERAL */
 div {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-
-
+/* div SUPERIOR */
 div.DivClassSecctionUpper {
-        /*COLOR DE FONDO*/
-        background-color: rgb(168, 162, 255);
+    /*COLOR DE FONDO*/
+    background-color: rgb(123, 193, 66);
+    /*ANCHO DE BOTON EN % - ANCHO DINAMICO SEGUN TAMAÑO DEL CONTENEDOR*/
+    width: 100%;
+    /*ALTURA DE BOTON EN PX - TAMAÑO FIJO SEGUN LA RESOLUCION*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
+/* div CENTRAL */
 div.DivClassSecctionCentral{
-    background-color: #7AB819;
+    background-color: rgb(147, 185, 166);
+    padding: 5px;
+    width: 100%;
 }
 
+/* div INFERIOR */
 div.DivClassSecctionLower {
         /*COLOR DE FONDO*/
         background-color: rgb(162, 255, 174);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
 }
 
-div.DivLogin {
-    /*COLOR DE FONDO*/
-    background-color: rgb(54, 54, 54);
-    /*COMPRENDE A LA ALINEACION DE TODO EL TEXTO*/
+div.col-md-6{
+    background-color: rgb(245, 188, 188);
+    padding: 20px;
+}
+
+div.align-self-center {
+    background-color: rgb(117, 114, 139);
+    border-radius: 10px;
+}
+
+div.card-body{
+    background-color: rgb(219, 219, 219);
+}
+
+div.row {
     text-align: center;
-    /*CORRESPONDE A BORDE DEL ELEMENTO*/
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-div.ClassDivDefault {
+div.form-group {
+    background-color: rgb(158, 158, 158);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -80,15 +133,58 @@ div.ClassDivDefault {
 ELEMENT BUTTON */
 
 button.ButtonClassLogin {
-    background-color: rgb(35, 100, 210);
-    width: 95%;
+    /*COLOR DE FONDO DEL COLOR*/
+    background-color: rgb(11, 151, 132);
+    /*ANCHO DE BOTON EN % - ANCHO DINAMICO SEGUN TAMAÑO DEL CONTENEDOR*/
+    width: 75%;
+    /*ALTURA DE BOTON EN PX - TAMAÑO FIJO SEGUN LA RESOLUCION*/
     height: 50px;
-    border-radius: 5px;
+    /*REDONDEA LAS ESQUINAS DEL BOTON, SE DEFINE COMO BORDE FIJO*/
+    border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*INDICA SI LA FUENTE ESTA EN NEGRILLA O NO*/
     font-weight: bolder;
+    /*COLOR DE FUENTE O LETRA*/
     color: rgb(255, 255, 255);
+    /*GROSOR DE BORDE DE BOTON*/
+    border: 0;
 }
 
-img.ClassImageStarup {
-    padding-bottom: 20px;
+
+/*-----------------------------------------------------------------------------
+ELEMENT CAJAS */
+
+input.form-control {
+    /*COLOR DE FONDO DEL COLOR*/
+    background-color: rgb(75, 135, 255);
+    /*ANCHO DE BOTON EN % - ANCHO DINAMICO SEGUN TAMAÑO DEL CONTENEDOR*/
+    width: 75%;
+    /*ALTURA DE BOTON EN PX - TAMAÑO FIJO SEGUN LA RESOLUCION*/
+    height: 50px;
+    /*COLOR DE FUENTE O LETRA*/
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+
+}
+
+/*-----------------------------------------------------------------------------
+ELEMENT IMAGEN */
+
+img.ClassImageStarup{
+        /*ANCHO DE BOTON EN % - ANCHO DINAMICO SEGUN TAMAÑO DEL CONTENEDOR*/
+        width: 100%;
+        /*ALTURA DE BOTON EN PX - TAMAÑO FIJO SEGUN LA RESOLUCION*/
+}
+
+img.ClassLogMinTic {
+    height: 100%;
+}
+
+img.ClassLogMinTic2022 {
+    height: 100%;
+}
+
+img.ClassLogUnvBos {
+    height: 100%;
 }
