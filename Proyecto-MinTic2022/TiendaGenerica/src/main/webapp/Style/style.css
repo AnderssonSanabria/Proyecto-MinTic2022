@@ -1,0 +1,76 @@
+/*-----------------------------------------------------------------------------
+configuracion general */ 
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*fuentes de la pagina*/
+    margin: 0; /*Elimina margenes creadas por defecto*/
+    padding: 0; /*Elimina padding(margen hacia dentro del elemento) creado por defecto*/
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.2%;
+}
+body{
+    margin: 0;
+    padding:1%;
+    background-color: #E4F3E2;
+}
+.cabecera{
+    border-radius:  10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100%; /*ancho del 100%*/
+    min-width: 317px;
+    background: #7bbb1c ;
+}
+.container{
+    width: 100%;
+    min-width: 317px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #7bbb1c;  
+}
+.img{
+    height: 500px;
+    background-color: fff;
+}
+
+.container-form form{
+    padding: 32px;
+    width: 250px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: #fff;
+}
+.container-form form label{
+    border-radius: 2px;
+    width: max-content;
+}
+.container-form form button{
+    border-radius: 2px;
+    background-color: #2f5e1d ;
+    color:  #fff;
+}
+
+.pie{
+    border-radius:  0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100%; /*ancho del 100%*/
+    min-width: 317px;
+    background: #7bbb1c ;
+    margin: 0; /*Elimina margenes creadas por defecto*/
+    padding: 0; /*Elimina padding(margen hacia dentro del elemento) creado por defecto*/
+}
+
